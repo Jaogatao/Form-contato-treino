@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos</title>
+</head>
+<body>
+    <h1>Contatos</h1>
+    <ul>
+        <% for (let i = 0; i < contatos.length; i++) { %>
+            <li><%= contatos[i].nome %>: <%= contatos[i].numero %> | <%= contatos[i].email %></li>
+        <% } %>
+    </ul>
+</body>
+</html>
